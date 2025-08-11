@@ -1,0 +1,44 @@
+{
+    "SuperA": {
+        "yerba 1kg": {
+            "precio": 22000,
+            "promociones": [
+                {
+                    "tipo": "descuento",
+                    "valor": 0.10,
+                    "condiciones": "valido martes y jueves"
+                },
+                {
+                    "tipo": "reintegro",
+                    "valor": 0.05,
+                    "condiciones": "pago con tarjeta ueno"
+                }
+            ]
+        },
+        "azucar 1kg": {
+            "precio": 9000,
+            "promociones": []
+        }
+    },
+    "SuperB": {
+        "yerba 1kg": {
+            "precio": 20000,
+            "promociones": [
+                {
+                    "tipo": "descuento",
+                    "valor": 0.20,
+                    "condiciones": "valido martes y jueves"
+                },
+                {
+                    "tipo": "reintegro",
+                    "valor": 0.05,
+                    "condiciones": "pago con tarjeta ueno"
+                }
+            ]
+        },
+        "azucar 1kg": {
+            "precio": 8500,
+            "promociones": []
+        }
+    }
+}
