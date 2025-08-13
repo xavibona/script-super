@@ -1,0 +1,111 @@
+{
+  "descuentos_generales": [
+    {
+      "nombre": "Descuento Visa Lunes",
+      "porcentaje": 15,
+      "dias_aplicables": ["Lunes"],
+      "tarjetas": ["Visa"],
+      "acumulable": false
+    },
+    {
+      "nombre": "Descuento Bancard Miércoles",
+      "porcentaje": 12,
+      "dias_aplicables": ["Miércoles"],
+      "tarjetas": ["Bancard"],
+      "acumulable": false
+    },
+    {
+      "nombre": "Descuento Itaú Viernes",
+      "porcentaje": 10,
+      "dias_aplicables": ["Viernes"],
+      "tarjetas": ["Itaú Mastercard"],
+      "acumulable": false
+    },
+    {
+      "nombre": "Descuento Mastercard Jueves",
+      "porcentaje": 8,
+      "dias_aplicables": ["Jueves"],
+      "tarjetas": ["Mastercard"],
+      "acumulable": false
+    },
+    {
+      "nombre": "Descuento Superseis Sábado",
+      "porcentaje": 5,
+      "dias_aplicables": ["Sábado"],
+      "tarjetas": ["Visa", "Mastercard"],
+      "acumulable": true
+    }
+  ],
+  "descuentos_por_categoria": {
+    "panificados": {
+      "nombre": "Panadería",
+      "porcentaje": 10,
+      "dias_aplicables": ["Lunes", "Martes"],
+      "acumulable": true
+    },
+    "frutas": {
+      "nombre": "Frutas Frescas",
+      "porcentaje": 5,
+      "dias_aplicables": ["Lunes", "Jueves"],
+      "acumulable": true
+    },
+    "carnes": {
+      "nombre": "Carnes y Embutidos",
+      "porcentaje": 8,
+      "dias_aplicables": ["Miércoles", "Viernes"],
+      "acumulable": true
+    },
+    "lacteos": {
+      "nombre": "Lácteos",
+      "porcentaje": 7,
+      "dias_aplicables": ["Martes", "Jueves"],
+      "acumulable": true
+    },
+    "limpieza": {
+      "nombre": "Productos de Limpieza",
+      "porcentaje": 5,
+      "dias_aplicables": ["Viernes"],
+      "acumulable": true
+    },
+    "bebidas": {
+      "nombre": "Bebidas",
+      "porcentaje": 6,
+      "dias_aplicables": ["Miércoles", "Sábado"],
+      "acumulable": true
+    },
+    "snacks": {
+      "nombre": "Snacks y Golosinas",
+      "porcentaje": 4,
+      "dias_aplicables": ["Domingo"],
+      "acumulable": true
+    }
+  },
+  "reintegros": [
+    {
+      "nombre": "Reintegro Ueno",
+      "porcentaje": 5,
+      "dias_aplicables": ["Lunes"]
+    },
+    {
+      "nombre": "Reintegro Banco Continental",
+      "porcentaje": 4,
+      "dias_aplicables": ["Martes", "Viernes"]
+    },
+    {
+      "nombre": "Reintegro Visión Banco",
+      "porcentaje": 3,
+      "dias_aplicables": ["Miércoles"]
+    },
+    {
+      "nombre": "Reintegro Itaú",
+      "porcentaje": 3,
+      "dias_aplicables": ["Jueves", "Sábado"]
+    },
+    {
+      "nombre": "Reintegro Banco Atlas",
+      "porcentaje": 2,
+      "dias_aplicables": ["Domingo"]
+    }
+  ]
+}
+
